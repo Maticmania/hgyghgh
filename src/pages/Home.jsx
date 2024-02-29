@@ -23,7 +23,7 @@ function Home() {
         }}
       >
         {/* <ProductCard /> */}
-        <img src={img2} alt="" />
+        <img src={img2} height='100%' width='100%' />
       </div>
     </>
   );
