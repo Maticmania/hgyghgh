@@ -1,5 +1,7 @@
 import "../css/Home.css";
 import img1 from "../assets/images/beautifulmonkey.jpg";
+import img2 from "../assets/images/suit-monkey.jpg";
+
 import Spin from "../components/Loader";
 import ProductCard from "../components/ProductCARDWORK";
 
@@ -21,7 +23,7 @@ function Home() {
         }}
       >
         {/* <ProductCard /> */}
-        <img src={img1} alt="" />
+        <img src={img2} alt="" />
       </div>
     </>
   );
